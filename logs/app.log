@@ -4,3 +4,57 @@
 {"event":"request_start","ts":"2025-09-08T08:26:10.101Z","method":"GET","path":"/abcd1","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0"},"bodyKeys":null}
 {"event":"redirect","ts":"2025-09-08T08:26:10.202Z","shortcode":"abcd1","ip":"::1","referrer":null,"geo":{"range":[134744072,134744072],"country":"US","region":"CA","city":"Mountain View","ll":[37.4056,-122.0775]}}
 {"event":"request_end","ts":"2025-09-08T08:26:10.303Z","method":"GET","path":"/abcd1","status":302,"durationMs":202}
+{"event":"db_connect","ts":"2025-09-08T08:48:05.092Z","message":"MongoDB connected"}
+{"event":"server_start","ts":"2025-09-08T08:48:05.099Z","message":"Server started on port 3000"}
+{"event":"request_start","ts":"2025-09-08T08:48:05.396Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:48:05.403Z","method":"GET","path":"/","status":404,"durationMs":7}
+{"event":"request_start","ts":"2025-09-08T08:48:05.508Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:48:05.510Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":2}
+{"event":"request_start","ts":"2025-09-08T08:48:10.319Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:48:10.321Z","method":"GET","path":"/","status":404,"durationMs":2}
+{"event":"request_start","ts":"2025-09-08T08:48:10.367Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:48:10.368Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":1}
+{"event":"request_start","ts":"2025-09-08T08:49:20.651Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:49:20.653Z","method":"GET","path":"/","status":404,"durationMs":2}
+{"event":"request_end","ts":"2025-09-08T08:49:20.728Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":1}
+{"event":"request_start","ts":"2025-09-08T08:49:20.727Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_start","ts":"2025-09-08T08:51:28.057Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:51:28.058Z","method":"GET","path":"/","status":404,"durationMs":1}
+{"event":"request_end","ts":"2025-09-08T08:51:28.137Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":1}
+{"event":"request_start","ts":"2025-09-08T08:51:28.136Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_start","ts":"2025-09-08T08:51:29.682Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:51:29.683Z","method":"GET","path":"/","status":404,"durationMs":1}
+{"event":"request_start","ts":"2025-09-08T08:51:29.739Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:51:29.741Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":2}
+{"event":"request_start","ts":"2025-09-08T08:55:22.595Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:55:22.597Z","method":"GET","path":"/","status":404,"durationMs":2}
+{"event":"request_start","ts":"2025-09-08T08:55:22.713Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T08:55:22.716Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":3}
+{"event":"db_connect","ts":"2025-09-08T08:57:45.077Z","message":"MongoDB connected"}
+{"event":"server_start","ts":"2025-09-08T08:57:45.084Z","message":"Server started on port 3000"}
+{"event":"db_connect","ts":"2025-09-08T08:59:14.922Z","message":"MongoDB connected"}
+{"event":"server_start","ts":"2025-09-08T08:59:14.934Z","message":"Server started on port 3000"}
+{"event":"db_connect","ts":"2025-09-08T09:00:16.180Z","message":"MongoDB connected"}
+{"event":"server_start","ts":"2025-09-08T09:00:16.188Z","message":"Server started on port 3000"}
+{"event":"request_start","ts":"2025-09-08T09:00:27.594Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:00:27.606Z","method":"GET","path":"/","status":200,"durationMs":12}
+{"event":"request_start","ts":"2025-09-08T09:00:27.674Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:00:27.678Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":4}
+{"event":"request_start","ts":"2025-09-08T09:00:27.787Z","method":"GET","path":"/favicon.ico","ip":"::1","headers":{"host":"localhost:3000","referer":"http://localhost:3000/","ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:00:27.835Z","method":"GET","path":"/favicon.ico","status":404,"durationMs":48}
+{"event":"request_start","ts":"2025-09-08T09:02:20.940Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:02:20.941Z","method":"GET","path":"/","status":304,"durationMs":1}
+{"event":"request_start","ts":"2025-09-08T09:02:21.019Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:02:21.021Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":2}
+{"event":"request_start","ts":"2025-09-08T09:02:26.915Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:02:26.917Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":2}
+{"event":"db_connect","ts":"2025-09-08T09:07:09.033Z","message":"MongoDB connected"}
+{"event":"server_start","ts":"2025-09-08T09:07:09.043Z","message":"Server started on port 3000"}
+{"event":"request_start","ts":"2025-09-08T09:07:10.206Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:07:10.220Z","method":"GET","path":"/","status":304,"durationMs":14}
+{"event":"request_start","ts":"2025-09-08T09:07:11.223Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:07:11.227Z","method":"GET","path":"/","status":304,"durationMs":5}
+{"event":"request_start","ts":"2025-09-08T09:07:11.438Z","method":"GET","path":"/","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:07:11.439Z","method":"GET","path":"/","status":304,"durationMs":1}
+{"event":"request_start","ts":"2025-09-08T09:07:13.026Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"},"bodyKeys":null}
+{"event":"request_end","ts":"2025-09-08T09:07:13.029Z","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","status":404,"durationMs":3}

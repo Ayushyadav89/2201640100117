@@ -1,13 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/shorturlsController');
+const controller = require('../controller/shortUrlController.js');
 
 
-// create short url
 router.post('/', controller.createShortUrl);
 
 
-// get stats
 router.get('/:shortcode', controller.getStats);
 
 

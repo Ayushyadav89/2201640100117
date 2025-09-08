@@ -3,18 +3,13 @@ const path = require('path');
 
 const LOG_FILE = process.env.LOG_FILE || path.join(process.cwd(), 'logs', 'app.log');
 
-// Ensure log folder exists
 fs.mkdirSync(path.dirname(LOG_FILE), { recursive: true });
 
-/**
- * Write a log entry as a JSON line.
- */
 function writeLog(obj) {
   try {
-    const line = JSON.stringify(obj) + '\n'; // ensure newline
+    const line = JSON.stringify(obj) + '\n'; 
     fs.appendFile(LOG_FILE, line, (err) => {
       if (err) {
-        // Optional: print to stderr if logging fails
         console.error('Failed to write log:', err.message);
       }
     });
@@ -23,9 +18,6 @@ function writeLog(obj) {
   }
 }
 
-/**
- * Express middleware to log request/response lifecycle.
- */
 function loggingMiddleware(req, res, next) {
   const start = Date.now();
 

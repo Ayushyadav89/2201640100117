@@ -1,10 +1,7 @@
-// src/routes/redirect.js
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/redirectController');
+const controller = require('../controller/redirectController.js');
 
-
-// redirect route: /:shortcode
 router.get('/:shortcode', controller.redirectToOriginal);
 
 

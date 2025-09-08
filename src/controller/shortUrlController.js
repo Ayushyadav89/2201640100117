@@ -1,10 +1,9 @@
-const ShortUrl = require('../models/ShortUrl');
-const Click = require('../models/Click');
-const { generateUniqueShortcode } = require('../utils/generateShortcode');
-const { isShortcodeValid } = require('../utils/validators');
-const { writeLog } = require('../middleware/logger');
+const ShortUrl = require('../model/shortUrl.js');
+const Click = require('../model/click.js');
+const { generateUniqueShortcode } = require('../utils/generateShort.js');
+const { isShortcodeValid } = require('../utils/validator.js');
+const { writeLog } = require('../middleware/logger.js');
 
-// Create Short URL
 async function createShortUrl(req, res) {
   try {
     const { url, validity, shortcode } = req.body;
@@ -13,7 +12,7 @@ async function createShortUrl(req, res) {
       return res.status(400).json({ error: '"url" is required and must be a string' });
     }
 
-    let minutes = 30; // default
+    let minutes = 30; 
     if (validity !== undefined) {
       if (!Number.isInteger(validity) || validity <= 0) {
         return res.status(400).json({ error: '"validity" must be a positive integer (minutes)' });
@@ -59,7 +58,6 @@ async function createShortUrl(req, res) {
   }
 }
 
-// Get Short URL Stats
 async function getStats(req, res) {
   try {
     const code = req.params.shortcode;
