@@ -1,0 +1,6 @@
+{"event":"request_start","ts":"2025-09-08T08:25:30.123Z","method":"POST","path":"/shorturls","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"PostmanRuntime/7.39.0"},"bodyKeys":["url","validity"]}
+{"event":"create_shorturl","ts":"2025-09-08T08:25:30.456Z","shortcode":"abcd1","expiryAt":"2025-09-08T08:55:30.456Z"}
+{"event":"request_end","ts":"2025-09-08T08:25:30.789Z","method":"POST","path":"/shorturls","status":201,"durationMs":666}
+{"event":"request_start","ts":"2025-09-08T08:26:10.101Z","method":"GET","path":"/abcd1","ip":"::1","headers":{"host":"localhost:3000","referer":null,"ua":"Mozilla/5.0"},"bodyKeys":null}
+{"event":"redirect","ts":"2025-09-08T08:26:10.202Z","shortcode":"abcd1","ip":"::1","referrer":null,"geo":{"range":[134744072,134744072],"country":"US","region":"CA","city":"Mountain View","ll":[37.4056,-122.0775]}}
+{"event":"request_end","ts":"2025-09-08T08:26:10.303Z","method":"GET","path":"/abcd1","status":302,"durationMs":202}
